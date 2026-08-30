@@ -102,9 +102,10 @@ export const mediaKitData: MediaKitData = {
     // Imagens facilmente editáveis centralizadas no mídia kit:
     // photo: foto de ação / viagem em campo
     photo:
-      'https://files.skip.app/v1/attachment/projects/379f55e0-59f0-466f-b27e-8566a70716c5/d2979207-6951-40b9-b883-207eb3431623.png',
+      'https://files.skip.app/v1/attachment/projects/379f55e0-59f0-466f-b27e-8566a70716c5/8525b39b-e8df-4122-8d76-e17f465b53eb.png',
     // portraitPhoto: retrato profissional de rosto para parceiros associarem uma pessoa real
-    portraitPhoto: 'https://img.usecurling.com/ppl/large?gender=female&seed=42',
+    portraitPhoto:
+      'https://files.skip.app/v1/attachment/projects/379f55e0-59f0-466f-b27e-8566a70716c5/a8b277d3-0d32-4753-91db-a2267b25e2e8.png',
     tagline: 'Sua viagem no próximo nível do jogo.',
     handle: '@playermindset.viagens',
     instagramUrl: 'https://instagram.com/playermindset.viagens',
@@ -224,7 +225,8 @@ export const mediaKitData: MediaKitData = {
       title: 'Review: Resort na Costa do Descobrimento',
       metric: '1,2 mi de views',
       category: 'Review de hospedagem',
-      image: 'https://img.usecurling.com/p/800/600?q=luxury%20resort%20pool%20aerial',
+      image:
+        'https://files.skip.app/v1/attachment/projects/379f55e0-59f0-466f-b27e-8566a70716c5/f209804b-3248-4e14-99a5-7b561b36998d.png',
       isVideo: true,
       featured: true,
     },
