@@ -135,7 +135,7 @@ export const mediaKitData: MediaKitData = {
       'Sou a Player Mindset Viagens e transformo hotéis, pousadas e resorts em conteúdo que inspira milhares de viajantes todos os dias. Vamos jogar juntos?',
     image: 'https://img.usecurling.com/p/1920/1080?q=tropical%20resort%20aerial%20coastline',
     stats: [
-      { label: 'Seguidores fiéis', value: '+250 mil' },
+      { label: 'Seguidores fiéis', value: '7400' },
       { label: 'Visualizações', value: '+30 mi' },
       { label: 'Destinos explorados', value: '35+' },
       { label: 'Engajamento médio', value: '4,8%' },
