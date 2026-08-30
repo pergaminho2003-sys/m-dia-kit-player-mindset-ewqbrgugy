@@ -104,7 +104,7 @@ export const mediaKitData: MediaKitData = {
     photo: 'https://img.usecurling.com/p/800/1000?q=travel%20creator%20woman%20camera%20viewpoint',
     // portraitPhoto: retrato profissional de rosto para parceiros associarem uma pessoa real
     portraitPhoto: 'https://img.usecurling.com/ppl/large?gender=female&seed=42',
-    tagline: 'Sua hospedagem no próximo nível do jogo.',
+    tagline: 'Sua viagem no próximo nível do jogo.',
     handle: '@playermindset.viagens',
     instagramUrl: 'https://instagram.com/playermindset.viagens',
     tiktokUrl: 'https://tiktok.com/@playermindset.viagens',
@@ -128,17 +128,16 @@ export const mediaKitData: MediaKitData = {
   },
   hero: {
     badge: '🛂 Mídia Kit • Parcerias 2025',
-    titleLead: 'Sua hospedagem no ',
+    titleLead: 'Sua viagem no ',
     titleHighlight: 'próximo nível',
     titleEnd: ' do jogo.',
     subheadline:
-      'Sou a Player Mindset Viagens e transformo hotéis, pousadas e resorts em conteúdo que inspira milhares de viajantes todos os dias. Vamos jogar juntos?',
+      'Sou a Rafaela Bevilaqua e transformo viagens em conteúdo que inspira viajantes todos os dias. Vamos jogar juntos?',
     image: 'https://img.usecurling.com/p/1920/1080?q=tropical%20resort%20aerial%20coastline',
     stats: [
-      { label: 'Seguidores fiéis', value: '7400' },
-      { label: 'Visualizações', value: '+30 mi' },
-      { label: 'Destinos explorados', value: '35+' },
-      { label: 'Engajamento médio', value: '4,8%' },
+      { label: 'Seguidores fiéis', value: '7.400' },
+      { label: 'Visualizações', value: '+8.000' },
+      { label: 'Destinos explorados', value: '90+' },
     ],
   },
   numbers: {
