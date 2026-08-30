@@ -478,8 +478,8 @@ export const Index: React.FC = () => {
             </p>
           </div>
 
-          {/* 4 Main Big Stats with CountUp */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {/* 3 Main Big Stats with CountUp */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {numbers.mainStats.map((stat) => (
               <div
                 key={stat.id}
