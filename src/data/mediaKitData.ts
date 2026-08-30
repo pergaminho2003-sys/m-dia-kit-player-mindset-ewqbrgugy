@@ -115,8 +115,7 @@ export const mediaKitData: MediaKitData = {
     email: 'contato@playermindsetviagens.com.br',
     responseTime: 'Resposta em até 24h úteis',
     baseLocation: 'Brasil (disponível para viagens nacionais e internacionais)',
-    education:
-      'Comunicação Social / Publicidade & Propaganda (especialização em Marketing Digital e Branding)',
+    education: 'Graduada em Educação Física e pós-graduada em Fisiologia do Exercício',
     agencyExperience: '+7 anos em agências de publicidade e estratégias de conteúdo',
     whyContentCreator:
       'Uni a bagagem estratégica de agência à paixão por explorar o mundo, criando narrativas imersivas e autênticas que transformam hospedagens em destinos de desejo e geram reservas reais.',
