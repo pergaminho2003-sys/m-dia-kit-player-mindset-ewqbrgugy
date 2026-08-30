@@ -116,7 +116,7 @@ export const mediaKitData: MediaKitData = {
     responseTime: 'Resposta em até 24h úteis',
     baseLocation: 'Brasil (disponível para viagens nacionais e internacionais)',
     education: 'Graduada em Educação Física e pós-graduada em Fisiologia do Exercício',
-    agencyExperience: '+7 anos em agências de publicidade e estratégias de conteúdo',
+    agencyExperience: '4 anos de agência e muitos sonhos realizados',
     whyContentCreator:
       'Uni a bagagem estratégica de agência à paixão por explorar o mundo, criando narrativas imersivas e autênticas que transformam hospedagens em destinos de desejo e geram reservas reais.',
     mainFormat: 'Reels, Vlogs e Conteúdo Editorial Imersivo',
