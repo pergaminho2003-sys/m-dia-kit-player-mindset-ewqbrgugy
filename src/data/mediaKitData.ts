@@ -101,7 +101,8 @@ export const mediaKitData: MediaKitData = {
     role: 'Criadora de Conteúdo & Estrategista de Viagens',
     // Imagens facilmente editáveis centralizadas no mídia kit:
     // photo: foto de ação / viagem em campo
-    photo: 'https://img.usecurling.com/p/800/1000?q=travel%20creator%20woman%20camera%20viewpoint',
+    photo:
+      'https://files.skip.app/v1/attachment/projects/379f55e0-59f0-466f-b27e-8566a70716c5/d2979207-6951-40b9-b883-207eb3431623.png',
     // portraitPhoto: retrato profissional de rosto para parceiros associarem uma pessoa real
     portraitPhoto: 'https://img.usecurling.com/ppl/large?gender=female&seed=42',
     tagline: 'Sua viagem no próximo nível do jogo.',
