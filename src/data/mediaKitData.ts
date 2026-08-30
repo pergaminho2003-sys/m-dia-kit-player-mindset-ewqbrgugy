@@ -2,6 +2,10 @@ export interface MediaKitData {
   creator: {
     name: string
     brandName: string
+    presentationTitle: string
+    role: string
+    photo: string
+    portraitPhoto: string
     tagline: string
     handle: string
     instagramUrl: string
@@ -12,6 +16,9 @@ export interface MediaKitData {
     email: string
     responseTime: string
     baseLocation: string
+    education: string
+    agencyExperience: string
+    whyContentCreator: string
     mainFormat: string
     audienceAge: string
     audienceGender: string
@@ -88,8 +95,15 @@ export interface MediaKitData {
 
 export const mediaKitData: MediaKitData = {
   creator: {
-    name: 'Player Mindset',
+    name: 'Rafaela Bevilaqua',
     brandName: 'Player Mindset Viagens',
+    presentationTitle: 'Prazer, sou Rafaela Bevilaqua, à frente da Player Mindset Viagens',
+    role: 'Criadora de Conteúdo & Estrategista de Viagens',
+    // Imagens facilmente editáveis centralizadas no mídia kit:
+    // photo: foto de ação / viagem em campo
+    photo: 'https://img.usecurling.com/p/800/1000?q=travel%20creator%20woman%20camera%20viewpoint',
+    // portraitPhoto: retrato profissional de rosto para parceiros associarem uma pessoa real
+    portraitPhoto: 'https://img.usecurling.com/ppl/large?gender=female&seed=42',
     tagline: 'Sua hospedagem no próximo nível do jogo.',
     handle: '@playermindset.viagens',
     instagramUrl: 'https://instagram.com/playermindset.viagens',
@@ -97,14 +111,19 @@ export const mediaKitData: MediaKitData = {
     youtubeUrl: 'https://youtube.com/@playermindsetviagens',
     whatsappNumber: '+55 11 99999-9999',
     whatsappUrl:
-      'https://wa.me/5511999999999?text=Ol%C3%A1%20Player%20Mindset%20Viagens!%20Vim%20pelo%20M%C3%ADdia%20Kit%20e%20gostaria%20de%20conversar%20sobre%20uma%20parceria.',
+      'https://wa.me/5511999999999?text=Ol%C3%A1%20Rafaela!%20Vim%20pelo%20M%C3%ADdia%20Kit%20da%20Player%20Mindset%20Viagens%20e%20gostaria%20de%20conversar%20sobre%20uma%20parceria.',
     email: 'contato@playermindsetviagens.com.br',
     responseTime: 'Resposta em até 24h úteis',
     baseLocation: 'Brasil (disponível para viagens nacionais e internacionais)',
+    education:
+      'Comunicação Social / Publicidade & Propaganda (especialização em Marketing Digital e Branding)',
+    agencyExperience: '+7 anos em agências de publicidade e estratégias de conteúdo',
+    whyContentCreator:
+      'Uni a bagagem estratégica de agência à paixão por explorar o mundo, criando narrativas imersivas e autênticas que transformam hospedagens em destinos de desejo e geram reservas reais.',
     mainFormat: 'Reels, Vlogs e Conteúdo Editorial Imersivo',
     audienceAge: '25–34 anos (maioria com poder de compra e viajantes frequentes)',
     audienceGender: '65% mulheres • 35% homens',
-    languages: 'Português (PT-BR)',
+    languages: 'Português (PT-BR) • Inglês',
     niches: 'Hospedagem, gastronomia, aventura e cultura local',
     bio: 'A Player Mindset Viagens nasceu de uma paixão: explorar cada destino como se fosse uma nova fase de um jogo — sem mapa, cheia de missões e recompensas. Hoje, transformo experiências reais em histórias visuais que conectam marcas do turismo a milhares de viajantes. Meu compromisso é autêntico: só divulgo o que eu realmente viveria (e vivi).',
   },

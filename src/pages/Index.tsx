@@ -24,6 +24,9 @@ import {
   ChevronDown,
   Camera,
   Map,
+  GraduationCap,
+  Briefcase,
+  Lightbulb,
 } from 'lucide-react'
 
 export const Index: React.FC = () => {
@@ -198,8 +201,8 @@ export const Index: React.FC = () => {
       <section id="sobre" className="py-24 sm:py-32 px-4 sm:px-6 bg-sand relative">
         <div className="max-w-[1200px] mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
-            {/* Left Column: Polaroid Style Portrait with Stickers */}
-            <div className="lg:col-span-5 flex justify-center">
+            {/* Left Column: Visual Showcase - Travel Polaroid + Real Headshot Portrait */}
+            <div className="lg:col-span-5 flex flex-col items-center gap-6">
               <div className="relative max-w-sm w-full mx-auto">
                 {/* Offset Decorative Coral Frame Behind */}
                 <div className="absolute inset-0 bg-coral/20 rounded-[24px] transform translate-x-4 translate-y-4 -rotate-1 pointer-events-none" />
@@ -208,8 +211,8 @@ export const Index: React.FC = () => {
                 <div className="relative bg-white p-4 pb-7 rounded-[20px] shadow-xl border border-line transform -rotate-3 hover:rotate-0 transition-transform duration-500 ease-out">
                   <div className="relative aspect-[4/5] rounded-xl overflow-hidden bg-sand-dark">
                     <img
-                      src="https://img.usecurling.com/p/800/1000?q=travel%20creator%20woman%20camera%20viewpoint"
-                      alt="Player Mindset segurando câmera em mirante de viagem com vista para a natureza"
+                      src={creator.photo}
+                      alt={`${creator.name} — ${creator.brandName} segurando câmera em mirante de viagem com vista para a natureza`}
                       className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-ink/40 via-transparent to-transparent pointer-events-none" />
@@ -218,7 +221,7 @@ export const Index: React.FC = () => {
                   {/* Polaroid caption */}
                   <div className="pt-4 text-center">
                     <p className="font-serif italic text-ink font-semibold text-lg">
-                      @playermindset.viagens
+                      {creator.handle}
                     </p>
                     <p className="text-[11px] font-mono uppercase tracking-widest text-text-muted mt-0.5">
                       Check-in em mais de 35 destinos
@@ -238,9 +241,33 @@ export const Index: React.FC = () => {
                   </div>
                 </div>
               </div>
+
+              {/* Rosto Real / Apresentação Pessoal da Criadora */}
+              <div className="w-full max-w-sm bg-white rounded-2xl p-4 border border-line shadow-sm flex items-center gap-4">
+                <div className="relative w-16 h-16 sm:w-18 sm:h-18 rounded-full overflow-hidden border-2 border-coral shrink-0 shadow-md bg-sand-dark">
+                  <img
+                    src={creator.portraitPhoto}
+                    alt={`Foto de perfil profissional de ${creator.name}`}
+                    className="w-full h-full object-cover object-center"
+                  />
+                  <div className="absolute inset-0 ring-1 ring-inset ring-black/10 rounded-full pointer-events-none" />
+                </div>
+                <div className="min-w-0 flex-1">
+                  <div className="inline-flex items-center gap-1.5 text-[10px] font-mono uppercase tracking-wider text-coral font-bold">
+                    <span className="w-1.5 h-1.5 rounded-full bg-coral animate-pulse" />
+                    <span>A pessoa por trás da marca</span>
+                  </div>
+                  <h4 className="font-serif font-bold text-base text-ink leading-tight truncate">
+                    {creator.name}
+                  </h4>
+                  <p className="text-xs text-text-muted leading-tight mt-0.5 line-clamp-1">
+                    {creator.role}
+                  </p>
+                </div>
+              </div>
             </div>
 
-            {/* Right Column: Bio & Ficha Técnica */}
+            {/* Right Column: Bio & Ficha Técnica Completa */}
             <div className="lg:col-span-7 space-y-6">
               {/* Kicker */}
               <div className="inline-flex items-center gap-2">
@@ -250,9 +277,9 @@ export const Index: React.FC = () => {
                 </span>
               </div>
 
-              {/* Title */}
+              {/* Title com Apresentação Pessoal e Marca */}
               <h2 className="font-serif font-bold text-3xl sm:text-4xl lg:text-5xl text-ink leading-tight">
-                Prazer, Player Mindset.
+                {creator.presentationTitle}
               </h2>
 
               {/* Bio copy verbatim */}
@@ -260,16 +287,36 @@ export const Index: React.FC = () => {
                 {creator.bio}
               </p>
 
-              {/* Ficha Técnica Card */}
-              <div className="bg-white rounded-2xl p-6 sm:p-7 border border-line shadow-sm space-y-4 mt-6">
-                <div className="flex items-center gap-2 pb-3 border-b border-line">
-                  <Compass className="w-5 h-5 text-coral" />
-                  <h3 className="font-serif font-bold text-lg text-ink">
-                    Ficha Técnica &amp; Perfil
-                  </h3>
+              {/* Ficha Técnica & Perfil Card — Com Dados Pessoais e Profissionais */}
+              <div className="bg-white rounded-2xl p-6 sm:p-7 border border-line shadow-sm space-y-5 mt-6">
+                <div className="flex items-center justify-between pb-3 border-b border-line">
+                  <div className="flex items-center gap-2">
+                    <Compass className="w-5 h-5 text-coral" />
+                    <h3 className="font-serif font-bold text-lg text-ink">
+                      Ficha Técnica &amp; Perfil
+                    </h3>
+                  </div>
+                  <span className="text-[11px] font-mono uppercase text-coral font-bold bg-coral/10 px-2.5 py-1 rounded-full border border-coral/20">
+                    {creator.brandName}
+                  </span>
                 </div>
 
+                {/* Grid dos campos da Ficha Técnica */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
+                  {/* Nome da Criadora */}
+                  <div className="flex items-start gap-3">
+                    <div className="w-8 h-8 rounded-lg bg-sand flex items-center justify-center shrink-0 text-coral">
+                      <Sparkles className="w-4 h-4" />
+                    </div>
+                    <div>
+                      <span className="block text-[11px] font-mono uppercase text-text-muted">
+                        Criadora &amp; Fundadora
+                      </span>
+                      <span className="font-semibold text-ink">{creator.name}</span>
+                    </div>
+                  </div>
+
+                  {/* Base */}
                   <div className="flex items-start gap-3">
                     <div className="w-8 h-8 rounded-lg bg-sand flex items-center justify-center shrink-0 text-coral">
                       <Map className="w-4 h-4" />
@@ -278,11 +325,57 @@ export const Index: React.FC = () => {
                       <span className="block text-[11px] font-mono uppercase text-text-muted">
                         Base
                       </span>
-                      <span className="font-semibold text-ink">Brasil</span>
+                      <span className="font-semibold text-ink">{creator.baseLocation}</span>
                     </div>
                   </div>
 
-                  <div className="flex items-start gap-3">
+                  {/* Formação Pessoal/Profissional */}
+                  <div className="sm:col-span-2 flex items-start gap-3 pt-2 border-t border-line/50">
+                    <div className="w-8 h-8 rounded-lg bg-sand flex items-center justify-center shrink-0 text-lagoon">
+                      <GraduationCap className="w-4 h-4" />
+                    </div>
+                    <div>
+                      <span className="block text-[11px] font-mono uppercase text-text-muted">
+                        Formação Profissional
+                      </span>
+                      <span className="font-semibold text-ink leading-snug">
+                        {creator.education}
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* Tempo de Agência / Experiência Prévia */}
+                  <div className="sm:col-span-2 flex items-start gap-3 pt-2 border-t border-line/50">
+                    <div className="w-8 h-8 rounded-lg bg-sand flex items-center justify-center shrink-0 text-sun">
+                      <Briefcase className="w-4 h-4" />
+                    </div>
+                    <div>
+                      <span className="block text-[11px] font-mono uppercase text-text-muted">
+                        Tempo de Agência &amp; Mercado
+                      </span>
+                      <span className="font-semibold text-ink leading-snug">
+                        {creator.agencyExperience}
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* Por que virou criadora de conteúdo de viagem */}
+                  <div className="sm:col-span-2 flex items-start gap-3 pt-2 border-t border-line/50 bg-sand/30 p-3 rounded-xl border border-line/60">
+                    <div className="w-8 h-8 rounded-lg bg-coral/10 flex items-center justify-center shrink-0 text-coral mt-0.5">
+                      <Lightbulb className="w-4 h-4" />
+                    </div>
+                    <div className="space-y-0.5">
+                      <span className="block text-[11px] font-mono uppercase text-coral font-bold tracking-wider">
+                        Por que virou criadora de viagem?
+                      </span>
+                      <p className="text-xs sm:text-sm text-text-body leading-relaxed font-normal">
+                        {creator.whyContentCreator}
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Formato Principal */}
+                  <div className="flex items-start gap-3 pt-2 border-t border-line/50">
                     <div className="w-8 h-8 rounded-lg bg-sand flex items-center justify-center shrink-0 text-lagoon">
                       <Camera className="w-4 h-4" />
                     </div>
@@ -290,11 +383,12 @@ export const Index: React.FC = () => {
                       <span className="block text-[11px] font-mono uppercase text-text-muted">
                         Formato Principal
                       </span>
-                      <span className="font-semibold text-ink">Reels e Vlogs</span>
+                      <span className="font-semibold text-ink">{creator.mainFormat}</span>
                     </div>
                   </div>
 
-                  <div className="flex items-start gap-3">
+                  {/* Público Predominante */}
+                  <div className="flex items-start gap-3 pt-2 border-t border-line/50">
                     <div className="w-8 h-8 rounded-lg bg-sand flex items-center justify-center shrink-0 text-coral">
                       <Users className="w-4 h-4" />
                     </div>
@@ -302,11 +396,14 @@ export const Index: React.FC = () => {
                       <span className="block text-[11px] font-mono uppercase text-text-muted">
                         Público Predominante
                       </span>
-                      <span className="font-semibold text-ink">25–34 anos • 65% mulheres</span>
+                      <span className="font-semibold text-ink">
+                        {creator.audienceAge} • {creator.audienceGender}
+                      </span>
                     </div>
                   </div>
 
-                  <div className="flex items-start gap-3">
+                  {/* Idiomas */}
+                  <div className="flex items-start gap-3 pt-2 border-t border-line/50">
                     <div className="w-8 h-8 rounded-lg bg-sand flex items-center justify-center shrink-0 text-sun">
                       <Globe className="w-4 h-4" />
                     </div>
@@ -314,11 +411,12 @@ export const Index: React.FC = () => {
                       <span className="block text-[11px] font-mono uppercase text-text-muted">
                         Idiomas
                       </span>
-                      <span className="font-semibold text-ink">Português (PT-BR)</span>
+                      <span className="font-semibold text-ink">{creator.languages}</span>
                     </div>
                   </div>
 
-                  <div className="sm:col-span-2 flex items-start gap-3 pt-2 border-t border-line/60">
+                  {/* Nichos de Atuação */}
+                  <div className="flex items-start gap-3 pt-2 border-t border-line/50">
                     <div className="w-8 h-8 rounded-lg bg-sand flex items-center justify-center shrink-0 text-coral">
                       <Sparkles className="w-4 h-4" />
                     </div>
@@ -326,9 +424,7 @@ export const Index: React.FC = () => {
                       <span className="block text-[11px] font-mono uppercase text-text-muted">
                         Nichos de Atuação
                       </span>
-                      <span className="font-semibold text-ink">
-                        Hospedagem, gastronomia, aventura e cultura local
-                      </span>
+                      <span className="font-semibold text-ink">{creator.niches}</span>
                     </div>
                   </div>
                 </div>
