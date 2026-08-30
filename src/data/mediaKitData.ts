@@ -232,27 +232,30 @@ export const mediaKitData: MediaKitData = {
     },
     {
       id: 'g2',
-      title: 'Roteiro de 4 dias em Bonito',
-      metric: '458 mil views',
+      title: 'Aventura no Jet Ski',
+      metric: '5.2k views',
       category: 'Vlog',
-      image: 'https://img.usecurling.com/p/800/600?q=bonito%20crystal%20clear%20river',
+      image:
+        'https://files.skip.app/v1/attachment/projects/379f55e0-59f0-466f-b27e-8566a70716c5/f72d8e48-3162-421b-a53d-2495ea11a5b8.png',
       isVideo: true,
       featured: true,
     },
     {
       id: 'g3',
-      title: 'Gastronomia de rua em Salvador',
-      metric: '820 mil views',
+      title: 'Momentos nos Lençóis',
+      metric: '8.1k views',
       category: 'Reels',
-      image: 'https://img.usecurling.com/p/600/600?q=brazilian%20street%20food%20salvador',
+      image:
+        'https://files.skip.app/v1/attachment/projects/379f55e0-59f0-466f-b27e-8566a70716c5/614742e2-9b0d-4959-8656-3c0765c3b177.png',
       isVideo: true,
     },
     {
       id: 'g4',
-      title: 'Check-in: Pousada na Serra',
-      metric: '96 mil curtidas',
+      title: 'Expedição 4x4',
+      metric: '4.5k views',
       category: 'Carrossel',
-      image: 'https://img.usecurling.com/p/600/600?q=cozy%20mountain%20chalet%20cabin',
+      image:
+        'https://files.skip.app/v1/attachment/projects/379f55e0-59f0-466f-b27e-8566a70716c5/8b96919e-e815-46f3-a212-9c17e3322197.png',
       isVideo: false,
     },
     {
