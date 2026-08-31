@@ -221,7 +221,7 @@ export const Index: React.FC = () => {
                   {/* Polaroid caption */}
                   <div className="pt-4 text-center">
                     <p className="font-serif italic text-ink font-semibold text-lg">
-                      {creator.handle}
+                      @rafabevilaqua_
                     </p>
                     <p className="text-[11px] font-mono uppercase tracking-widest text-text-muted mt-0.5">
                       Check-in em mais de 35 destinos
