@@ -6,6 +6,12 @@ import galleryJetSkiImg from '@/assets/design-sem-nome-3-982ca.jpg'
 import galleryLencoisImg from '@/assets/design-sem-nome-4-6ad02.jpg'
 import galleryExpedition4x4Img from '@/assets/img5644-89bc4.jpg'
 
+// URLs diretas dos anexos enviados pelo usuário (fotos reais do Cenote e Caiaque ao pôr do sol)
+const galleryCenoteImg =
+  'https://dagtlwojkqyivnjgveda.supabase.co/storage/v1/object/public/message-attachments/8994b4f1-fde4-4917-a3df-21dc374d65b0/img5143-08d8a.jpg'
+const galleryCaiaqueImg =
+  'https://dagtlwojkqyivnjgveda.supabase.co/storage/v1/object/public/message-attachments/8994b4f1-fde4-4917-a3df-21dc374d65b0/design-sem-nome-5-0be49.jpg'
+
 export interface MediaKitData {
   creator: {
     name: string
@@ -258,15 +264,15 @@ export const mediaKitData: MediaKitData = {
       title: 'Conexão com a Natureza',
       metric: '7.2k views',
       category: 'Reels',
-      image: 'https://img.usecurling.com/p/800/800?q=cenote%20nature%20water',
+      image: galleryCenoteImg,
       isVideo: true,
     },
     {
       id: 'g6',
-      title: 'Eurotrip: Paris',
+      title: 'Caiaque ao pôr do sol',
       metric: '12.5k views',
       category: 'Post',
-      image: 'https://img.usecurling.com/p/800/800?q=paris%20eiffel%20tower',
+      image: galleryCaiaqueImg,
       isVideo: false,
     },
   ],
