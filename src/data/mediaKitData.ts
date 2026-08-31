@@ -1,3 +1,11 @@
+import heroKayakImg from '@/assets/captura-de-tela-2026-08-30-as-20.06.28-4bf97.png'
+import polaroidTravelImg from '@/assets/700d315f-02be-4e03-8641-4558334d245f-6cc35.jpg'
+import portraitHeadshotImg from '@/assets/700d315f-02be-4e03-8641-4558334d245f-e278b.jpg'
+import galleryResortPoolImg from '@/assets/design-sem-nome-2-5a4ef.jpg'
+import galleryJetSkiImg from '@/assets/design-sem-nome-3-982ca.jpg'
+import galleryLencoisImg from '@/assets/design-sem-nome-4-6ad02.jpg'
+import galleryExpedition4x4Img from '@/assets/img5644-89bc4.jpg'
+
 export interface MediaKitData {
   creator: {
     name: string
@@ -101,11 +109,9 @@ export const mediaKitData: MediaKitData = {
     role: 'Criadora de Conteúdo & Estrategista de Viagens',
     // Imagens facilmente editáveis centralizadas no mídia kit:
     // photo: foto de ação / viagem em campo
-    photo:
-      'https://files.skip.app/v1/attachment/projects/379f55e0-59f0-466f-b27e-8566a70716c5/8525b39b-e8df-4122-8d76-e17f465b53eb.png',
+    photo: polaroidTravelImg,
     // portraitPhoto: retrato profissional de rosto para parceiros associarem uma pessoa real
-    portraitPhoto:
-      'https://files.skip.app/v1/attachment/projects/379f55e0-59f0-466f-b27e-8566a70716c5/a8b277d3-0d32-4753-91db-a2267b25e2e8.png',
+    portraitPhoto: portraitHeadshotImg,
     tagline: 'Sua viagem no próximo nível do jogo.',
     handle: '@playermindset.viagens',
     instagramUrl: 'https://instagram.com/playermindset.viagens',
@@ -135,8 +141,7 @@ export const mediaKitData: MediaKitData = {
     titleEnd: ' do jogo.',
     subheadline:
       'Sou a Rafaela Bevilaqua e transformo viagens em conteúdo que inspira viajantes todos os dias. Vamos jogar juntos?',
-    image:
-      'https://files.skip.app/v1/attachment/projects/379f55e0-59f0-466f-b27e-8566a70716c5/975d5f22-38ed-4b10-8d59-2c7003f0b240.png',
+    image: heroKayakImg,
     stats: [
       { label: 'Seguidores fiéis', value: '7.400' },
       { label: 'Visualizações', value: '+8.000' },
@@ -219,8 +224,7 @@ export const mediaKitData: MediaKitData = {
       title: 'Review: Resort na Costa do Descobrimento',
       metric: '1,2 mi de views',
       category: 'Review de hospedagem',
-      image:
-        'https://files.skip.app/v1/attachment/projects/379f55e0-59f0-466f-b27e-8566a70716c5/f209804b-3248-4e14-99a5-7b561b36998d.png',
+      image: galleryResortPoolImg,
       isVideo: true,
       featured: true,
     },
@@ -229,8 +233,7 @@ export const mediaKitData: MediaKitData = {
       title: 'Aventura no Jet Ski',
       metric: '5.2k views',
       category: 'Vlog',
-      image:
-        'https://files.skip.app/v1/attachment/projects/379f55e0-59f0-466f-b27e-8566a70716c5/f72d8e48-3162-421b-a53d-2495ea11a5b8.png',
+      image: galleryJetSkiImg,
       isVideo: true,
       featured: true,
     },
@@ -239,8 +242,7 @@ export const mediaKitData: MediaKitData = {
       title: 'Momentos nos Lençóis',
       metric: '8.1k views',
       category: 'Reels',
-      image:
-        'https://files.skip.app/v1/attachment/projects/379f55e0-59f0-466f-b27e-8566a70716c5/614742e2-9b0d-4959-8656-3c0765c3b177.png',
+      image: galleryLencoisImg,
       isVideo: true,
     },
     {
@@ -248,8 +250,7 @@ export const mediaKitData: MediaKitData = {
       title: 'Expedição 4x4',
       metric: '4.5k views',
       category: 'Carrossel',
-      image:
-        'https://files.skip.app/v1/attachment/projects/379f55e0-59f0-466f-b27e-8566a70716c5/8b96919e-e815-46f3-a212-9c17e3322197.png',
+      image: galleryExpedition4x4Img,
       isVideo: false,
     },
     {
@@ -257,8 +258,7 @@ export const mediaKitData: MediaKitData = {
       title: 'Conexão com a Natureza',
       metric: '7.2k views',
       category: 'Reels',
-      image:
-        'https://files.skip.app/v1/attachment/projects/379f55e0-59f0-466f-b27e-8566a70716c5/94a3a60a-9d9e-4a6c-9475-4d0583b6b158.png',
+      image: 'https://img.usecurling.com/p/800/800?q=cenote%20nature%20water',
       isVideo: true,
     },
     {
@@ -266,8 +266,7 @@ export const mediaKitData: MediaKitData = {
       title: 'Eurotrip: Paris',
       metric: '12.5k views',
       category: 'Post',
-      image:
-        'https://files.skip.app/v1/attachment/projects/379f55e0-59f0-466f-b27e-8566a70716c5/c95cc56f-2ce3-42e1-a08b-204555071113.png',
+      image: 'https://img.usecurling.com/p/800/800?q=paris%20eiffel%20tower',
       isVideo: false,
     },
   ],
