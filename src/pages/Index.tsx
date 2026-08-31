@@ -231,7 +231,7 @@ export const Index: React.FC = () => {
                   {/* Floating Sticker 1: 35+ Destinos (Top-Left) */}
                   <div className="absolute -top-3 -left-3 bg-sun text-ink font-sora font-extrabold text-xs px-3.5 py-1.5 rounded-full shadow-lg border-2 border-white transform -rotate-12 flex items-center gap-1.5 animate-float">
                     <span>🌎</span>
-                    <span>35+ destinos</span>
+                    <span>90+ destinos</span>
                   </div>
 
                   {/* Floating Sticker 2: Criadora de Conteúdo (Bottom-Right) */}
