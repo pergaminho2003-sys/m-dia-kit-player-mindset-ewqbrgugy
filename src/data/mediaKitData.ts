@@ -2,7 +2,7 @@ import heroKayakImg from '@/assets/captura-de-tela-2026-08-30-as-20.06.28-4bf97.
 import polaroidTravelImg from '@/assets/700d315f-02be-4e03-8641-4558334d245f-6cc35.jpg'
 import portraitHeadshotImg from '@/assets/700d315f-02be-4e03-8641-4558334d245f-e278b.jpg'
 import galleryResortPoolImg from '@/assets/design-sem-nome-2-5a4ef.jpg'
-import galleryJetSkiImg from '@/assets/design-sem-nome-3-982ca.jpg'
+import parisVlogImg from '@/assets/img2100-f4ce0.jpg'
 import galleryLencoisImg from '@/assets/design-sem-nome-4-6ad02.jpg'
 import galleryExpedition4x4Img from '@/assets/img5644-89bc4.jpg'
 
@@ -236,10 +236,10 @@ export const mediaKitData: MediaKitData = {
     },
     {
       id: 'g2',
-      title: 'Aventura no Jet Ski',
+      title: 'Eurotrip: Paris & Torre Eiffel',
       metric: '5.2k views',
       category: 'Vlog',
-      image: galleryJetSkiImg,
+      image: parisVlogImg,
       isVideo: true,
       featured: true,
     },
