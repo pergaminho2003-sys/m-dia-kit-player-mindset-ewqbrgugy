@@ -112,7 +112,7 @@ export const mediaKitData: MediaKitData = {
     name: 'Rafaela Bevilaqua',
     brandName: 'Player Mindset Viagens',
     presentationTitle: 'Prazer, sou Rafaela Bevilaqua, à frente da Player Mindset Viagens',
-    role: 'Criadora de Conteúdo & Estrategista de Viagens',
+    role: 'Gestora de viagens',
     // Imagens facilmente editáveis centralizadas no mídia kit:
     // photo: foto de ação / viagem em campo
     photo: polaroidTravelImg,
