@@ -234,10 +234,10 @@ export const Index: React.FC = () => {
                     <span>90+ destinos</span>
                   </div>
 
-                  {/* Floating Sticker 2: Criadora de Conteúdo (Bottom-Right) */}
-                  <div className="absolute -bottom-3 -right-3 bg-coral text-white font-sora font-extrabold text-xs px-3.5 py-1.5 rounded-full shadow-lg border-2 border-white transform rotate-6 flex items-center gap-1.5">
-                    <span>🎥</span>
-                    <span>Criadora de conteúdo</span>
+                  {/* Floating Sticker 2: Criadora + Dona da Agência (Bottom-Right) */}
+                  <div className="absolute -bottom-3 -right-3 bg-coral text-white font-sora font-extrabold text-xs px-3.5 py-1.5 rounded-full shadow-lg border-2 border-white transform rotate-4 flex items-center gap-1.5">
+                    <span>✨</span>
+                    <span>Criadora &amp; Dona de Agência</span>
                   </div>
                 </div>
               </div>
@@ -260,9 +260,27 @@ export const Index: React.FC = () => {
                   <h4 className="font-serif font-bold text-base text-ink leading-tight truncate">
                     {creator.name}
                   </h4>
-                  <p className="text-xs text-text-muted leading-tight mt-0.5 line-clamp-1">
+                  <p className="text-xs text-text-muted leading-tight mt-0.5 line-clamp-2">
                     {creator.role}
                   </p>
+                </div>
+              </div>
+
+              {/* Highlight Card: O Grande Diferencial para Hotéis */}
+              <div className="w-full max-w-sm bg-gradient-to-br from-coral/10 via-sun/10 to-transparent rounded-2xl p-4 border border-coral/20 shadow-xs">
+                <div className="flex items-start gap-3">
+                  <div className="w-8 h-8 rounded-lg bg-coral text-white flex items-center justify-center shrink-0 mt-0.5 shadow-xs">
+                    <Sparkles className="w-4 h-4" />
+                  </div>
+                  <div className="space-y-1">
+                    <span className="text-[11px] font-mono uppercase font-bold text-coral tracking-wider block">
+                      Diferencial Exclusivo
+                    </span>
+                    <p className="text-xs text-text-body leading-relaxed">
+                      <strong>Conteúdo + Agência:</strong> Divulgação nas redes sociais somada à
+                      recomendação ativa de clientes reais para reservas diretas no seu hotel.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -303,14 +321,14 @@ export const Index: React.FC = () => {
 
                 {/* Grid dos campos da Ficha Técnica */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
-                  {/* Nome da Criadora */}
+                  {/* Nome da Criadora e Atuação */}
                   <div className="flex items-start gap-3">
                     <div className="w-8 h-8 rounded-lg bg-sand flex items-center justify-center shrink-0 text-coral">
                       <Sparkles className="w-4 h-4" />
                     </div>
                     <div>
                       <span className="block text-[11px] font-mono uppercase text-text-muted">
-                        Criadora &amp; Fundadora
+                        Criadora &amp; Dona de Agência
                       </span>
                       <span className="font-semibold text-ink">{creator.name}</span>
                     </div>
@@ -326,6 +344,21 @@ export const Index: React.FC = () => {
                         Base
                       </span>
                       <span className="font-semibold text-ink">{creator.baseLocation}</span>
+                    </div>
+                  </div>
+
+                  {/* Atuação Dupla & Agência */}
+                  <div className="sm:col-span-2 flex items-start gap-3 pt-2 border-t border-line/50">
+                    <div className="w-8 h-8 rounded-lg bg-sand flex items-center justify-center shrink-0 text-coral">
+                      <Plane className="w-4 h-4" />
+                    </div>
+                    <div>
+                      <span className="block text-[11px] font-mono uppercase text-text-muted">
+                        Atuação Comercial &amp; Envio de Hóspedes
+                      </span>
+                      <span className="font-semibold text-ink leading-snug">
+                        {creator.role} — envio ativo de clientes reais para os destinos parceiros
+                      </span>
                     </div>
                   </div>
 
@@ -351,7 +384,7 @@ export const Index: React.FC = () => {
                     </div>
                     <div>
                       <span className="block text-[11px] font-mono uppercase text-text-muted">
-                        Tempo de Agência &amp; Mercado
+                        Agência Player Mindset Viagens
                       </span>
                       <span className="font-semibold text-ink leading-snug">
                         {creator.agencyExperience}
@@ -366,7 +399,7 @@ export const Index: React.FC = () => {
                     </div>
                     <div className="space-y-0.5">
                       <span className="block text-[11px] font-mono uppercase text-coral font-bold tracking-wider">
-                        Por que virou criadora de viagem?
+                        Dupla Atuação: Criadora + Agência
                       </span>
                       <p className="text-xs sm:text-sm text-text-body leading-relaxed font-normal">
                         {creator.whyContentCreator}
