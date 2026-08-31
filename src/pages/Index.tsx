@@ -224,7 +224,7 @@ export const Index: React.FC = () => {
                       @rafabevilaqua_
                     </p>
                     <p className="text-[11px] font-mono uppercase tracking-widest text-text-muted mt-0.5">
-                      Check-in em mais de 35 destinos
+                      Check-in em mais de 90<span>&nbsp;destinos</span>
                     </p>
                   </div>
 
