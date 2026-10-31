@@ -227,7 +227,7 @@ export const mediaKitData: MediaKitData = {
   gallery: [
     {
       id: 'g1',
-      title: 'Review: Resort na Costa do Descobrimento',
+      title: 'Lençóis Maranhenses',
       metric: '1,2 mi de views',
       category: 'Review de hospedagem',
       image: galleryResortPoolImg,
