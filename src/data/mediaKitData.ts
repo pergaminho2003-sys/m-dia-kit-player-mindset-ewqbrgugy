@@ -245,7 +245,7 @@ export const mediaKitData: MediaKitData = {
     },
     {
       id: 'g3',
-      title: 'Momentos nos Lençóis',
+      title: 'Hotéis e Resorts',
       metric: '8.1k views',
       category: 'Reels',
       image: galleryLencoisImg,
