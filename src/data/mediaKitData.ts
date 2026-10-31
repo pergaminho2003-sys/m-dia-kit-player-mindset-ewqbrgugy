@@ -253,7 +253,7 @@ export const mediaKitData: MediaKitData = {
     },
     {
       id: 'g4',
-      title: 'Expedição 4x4',
+      title: 'Lifestyle',
       metric: '4.5k views',
       category: 'Carrossel',
       image: galleryExpedition4x4Img,
