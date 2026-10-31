@@ -1,9 +1,9 @@
 import heroKayakImg from '@/assets/captura-de-tela-2026-08-30-as-20.06.28-4bf97.png'
 import polaroidTravelImg from '@/assets/700d315f-02be-4e03-8641-4558334d245f-6cc35.jpg'
 import portraitHeadshotImg from '@/assets/700d315f-02be-4e03-8641-4558334d245f-e278b.jpg'
-import galleryResortPoolImg from '@/assets/design-sem-nome-2-5a4ef.jpg'
+import galleryGastronomiaImg from '@/assets/gastronomia-restaurantes.svg'
 import parisVlogImg from '@/assets/img2100-f4ce0.jpg'
-import galleryLencoisImg from '@/assets/design-sem-nome-4-6ad02.jpg'
+import galleryHoteisImg from '@/assets/design-sem-nome-4-6ad02.jpg'
 import galleryExpedition4x4Img from '@/assets/img5644-89bc4.jpg'
 
 // URLs diretas dos anexos enviados pelo usuário (fotos reais do Cenote e Caiaque ao pôr do sol)
@@ -12,6 +12,7 @@ const galleryCenoteImg =
 const galleryCaiaqueImg =
   'https://dagtlwojkqyivnjgveda.supabase.co/storage/v1/object/public/message-attachments/8994b4f1-fde4-4917-a3df-21dc374d65b0/design-sem-nome-5-0be49.jpg'
 
+// Helper to support SVG and string asset modules
 export interface MediaKitData {
   creator: {
     name: string
@@ -74,7 +75,13 @@ export interface MediaKitData {
     id: string
     title: string
     metric: string
-    category: 'Reels' | 'Vlog' | 'Review de hospedagem' | 'Carrossel' | 'Post'
+    category:
+      | 'Reels'
+      | 'Vlog'
+      | 'Review de hospedagem'
+      | 'Review de experiência'
+      | 'Carrossel'
+      | 'Post'
     image: string
     isVideo: boolean
     featured?: boolean
@@ -227,10 +234,10 @@ export const mediaKitData: MediaKitData = {
   gallery: [
     {
       id: 'g1',
-      title: 'Lençóis Maranhenses',
+      title: 'Bares e restaurantes',
       metric: '1,2 mi de views',
-      category: 'Review de hospedagem',
-      image: galleryResortPoolImg,
+      category: 'Review de experiência',
+      image: galleryGastronomiaImg,
       isVideo: true,
       featured: true,
     },
@@ -248,7 +255,7 @@ export const mediaKitData: MediaKitData = {
       title: 'Hotéis e Resorts',
       metric: '8.1k views',
       category: 'Reels',
-      image: galleryLencoisImg,
+      image: galleryHoteisImg,
       isVideo: true,
     },
     {
