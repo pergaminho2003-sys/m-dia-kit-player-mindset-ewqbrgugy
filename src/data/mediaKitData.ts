@@ -219,7 +219,7 @@ export const mediaKitData: MediaKitData = {
     ],
     audienceChips: [
       '65% mulheres',
-      'Faixa 25–34 anos',
+      'Faixa 25–44 anos',
       'Brasil: SP, RJ, MG, BA',
       'Interesses: hospedagem, gastronomia, bares, cafés e experiências',
       'Alta taxa de salvamento de roteiros',
