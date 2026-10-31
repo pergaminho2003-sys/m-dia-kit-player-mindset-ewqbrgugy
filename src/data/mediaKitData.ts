@@ -142,7 +142,7 @@ export const mediaKitData: MediaKitData = {
     bio: 'Sou criadora de conteúdo de viagem e dona da agência Player Mindset Viagens. Essa dupla atuação é o grande diferencial para hotéis e pousadas: além de produzir narrativas visuais imersivas que encantam e engajam milhares de viajantes, eu conecto o seu empreendimento a clientes reais que compram e viajam pela minha agência. Não é apenas exposição — é potencial concreto de reserva direta e hóspedes de verdade.',
   },
   hero: {
-    badge: '🛂 Mídia Kit • Parcerias 2025',
+    badge: '🛂 Mídia Kit • Parcerias 2026',
     titleLead: 'Sua viagem no ',
     titleHighlight: 'próximo nível',
     titleEnd: ' do jogo.',
