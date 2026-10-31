@@ -119,10 +119,10 @@ export const mediaKitData: MediaKitData = {
     // portraitPhoto: retrato profissional de rosto para parceiros associarem uma pessoa real
     portraitPhoto: portraitHeadshotImg,
     tagline: 'Sua viagem no próximo nível do jogo.',
-    handle: '@playermindset.viagens',
-    instagramUrl: 'https://instagram.com/playermindset.viagens',
-    tiktokUrl: 'https://tiktok.com/@playermindset.viagens',
-    youtubeUrl: 'https://youtube.com/@playermindsetviagens',
+    handle: '@rafabevilaqua_',
+    instagramUrl: 'https://instagram.com/rafabevilaqua_',
+    tiktokUrl: 'https://tiktok.com/@rafabevilaqua_',
+    youtubeUrl: 'https://youtube.com/@rafabevilaqua_',
     whatsappNumber: '+55 11 99999-9999',
     whatsappUrl:
       'https://wa.me/5511999999999?text=Ol%C3%A1%20Rafaela!%20Vim%20pelo%20M%C3%ADdia%20Kit%20da%20Player%20Mindset%20Viagens%20e%20gostaria%20de%20conversar%20sobre%20uma%20parceria.',
@@ -161,7 +161,7 @@ export const mediaKitData: MediaKitData = {
     mainStats: [
       {
         id: 'followers',
-        value: 7400,
+        value: 7560,
         prefix: '',
         suffix: '',
         label: 'Seguidores fiéis',
@@ -190,7 +190,7 @@ export const mediaKitData: MediaKitData = {
     platforms: [
       {
         name: 'Instagram',
-        count: '7.400 seguidores',
+        count: '7.560 seguidores',
         percentage: 85,
         color: '#E1306C',
         iconName: 'Instagram',

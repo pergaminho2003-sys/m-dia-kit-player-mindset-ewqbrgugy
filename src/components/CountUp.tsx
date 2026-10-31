@@ -67,7 +67,12 @@ export const CountUp: React.FC<CountUpProps> = ({
   }, [hasAnimated, end, duration])
 
   const formattedValue =
-    decimals > 0 ? count.toFixed(decimals).replace('.', ',') : Math.round(count).toString()
+    decimals > 0
+      ? count.toLocaleString('pt-BR', {
+          minimumFractionDigits: decimals,
+          maximumFractionDigits: decimals,
+        })
+      : Math.round(count).toLocaleString('pt-BR')
 
   return (
     <span ref={elementRef} className={className}>
