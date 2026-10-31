@@ -150,7 +150,7 @@ export const mediaKitData: MediaKitData = {
       'Sou a Rafaela Bevilaqua: criadora de conteúdo de viagem e dona da Player Mindset Viagens. Além de visibilidade e engajamento, conecto o seu hotel a clientes reais com potencial de reserva direta.',
     image: heroKayakImg,
     stats: [
-      { label: 'Seguidores fiéis', value: '7.400' },
+      { label: 'Seguidores fiéis', value: '7.560' },
       { label: 'views em 30 dias', value: '190k' },
       { label: 'Destinos explorados', value: '90+' },
     ],
