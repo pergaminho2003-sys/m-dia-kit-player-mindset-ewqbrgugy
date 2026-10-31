@@ -151,7 +151,7 @@ export const mediaKitData: MediaKitData = {
     image: heroKayakImg,
     stats: [
       { label: 'Seguidores fiéis', value: '7.400' },
-      { label: 'Visualizações', value: '+8.000' },
+      { label: 'views em 30 dias', value: '190k' },
       { label: 'Destinos explorados', value: '90+' },
     ],
   },
