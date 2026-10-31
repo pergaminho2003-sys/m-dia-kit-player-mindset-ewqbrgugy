@@ -159,26 +159,6 @@ export const Index: React.FC = () => {
 
         {/* Floating Mini-Stats Strip (Overlapping Hero Bottom) */}
         <div className="relative z-10 max-w-[1200px] mx-auto w-full pt-12">
-          <div className="rounded-2xl bg-white/10 backdrop-blur-xl border border-white/20 p-4 sm:p-6 shadow-2xl">
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 divide-y sm:divide-y-0 sm:divide-x divide-white/15">
-              {hero.stats.map((stat, idx) => (
-                <div
-                  key={stat.label}
-                  className={`flex flex-col items-center sm:items-start ${
-                    idx > 0 ? 'pt-3 sm:pt-0 sm:pl-6' : ''
-                  }`}
-                >
-                  <span className="font-serif font-bold text-2xl sm:text-3xl text-white">
-                    {stat.value}
-                  </span>
-                  <span className="text-xs sm:text-sm text-white/70 font-medium mt-0.5 text-center sm:text-left">
-                    {stat.label}
-                  </span>
-                </div>
-              ))}
-            </div>
-          </div>
-
           {/* Scroll Down Indicator */}
           <div className="flex justify-center pt-6">
             <button
