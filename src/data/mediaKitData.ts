@@ -135,7 +135,7 @@ export const mediaKitData: MediaKitData = {
     whyContentCreator:
       'Uni a força da minha agência Player Mindset Viagens — que envia passageiros e clientes reais para os destinos — à criação de conteúdo autêntico. O resultado para o seu negócio não é apenas visibilidade: é público qualificado no seu espaço e clientes reais consumindo sua experiência.',
     mainFormat: 'Reels, Vlogs e Conteúdo Editorial Imersivo',
-    audienceAge: '25–34 anos (maioria com poder de compra e viajantes frequentes)',
+    audienceAge: '25–44 anos',
     audienceGender: '65% mulheres • 35% homens',
     languages: 'Português (PT-BR) • Inglês',
     niches: 'Hospedagem, gastronomia, bares, cafés, experiências e turismo',
