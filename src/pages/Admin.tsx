@@ -179,7 +179,7 @@ export const Admin: React.FC = () => {
               Painel de Parcerias
             </h1>
             <p className="text-xs sm:text-sm text-text-muted mt-1">
-              Gerencie solicitações de hotéis, pousadas e resorts em tempo real.
+              Gerencie solicitações de negócios e experiências parceiras em tempo real.
             </p>
           </div>
 

@@ -55,9 +55,10 @@ export const ContactForm: React.FC = () => {
     if (!formData.email.trim()) {
       errors.email = 'Por favor, informe um e-mail válido.'
     } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email.trim())) {
-      errors.email = 'Insira um formato de e-mail válido (ex: contato@hotel.com.br).'
+      errors.email = 'Insira um formato de e-mail válido (ex: contato@seunegocio.com.br).'
     }
-    if (!formData.property_type) errors.property_type = 'Selecione o tipo de empreendimento.'
+    if (!formData.property_type)
+      errors.property_type = 'Selecione o tipo de negócio ou experiência.'
     if (!formData.message.trim()) {
       errors.message = 'Por favor, descreva sua proposta ou ideia de parceria.'
     } else if (formData.message.length > 2000) {
@@ -183,7 +184,7 @@ export const ContactForm: React.FC = () => {
             type="email"
             required
             maxLength={120}
-            placeholder="contato@seuhotel.com.br"
+            placeholder="contato@seunegocio.com.br"
             value={formData.email}
             onChange={handleChange}
             className={`w-full px-4 py-3 rounded-xl bg-sand-light/70 border ${
@@ -205,7 +206,7 @@ export const ContactForm: React.FC = () => {
             htmlFor="property_type"
             className="block text-xs font-bold uppercase tracking-wider text-ink font-sora"
           >
-            Tipo de empreendimento <span className="text-coral">*</span>
+            Tipo de negócio / experiência <span className="text-coral">*</span>
           </label>
           <div className="relative">
             <select
@@ -222,7 +223,15 @@ export const ContactForm: React.FC = () => {
             >
               {propertyTypes.map((type) => (
                 <option key={type} value={type}>
-                  {type}
+                  {type === 'Hotel'
+                    ? 'Hotel / Hospedagem'
+                    : type === 'Pousada'
+                      ? 'Pousada / Resort'
+                      : type === 'Resort'
+                        ? 'Restaurante / Bar / Café'
+                        : type === 'Agência de turismo'
+                          ? 'Experiência / Passeio / Turismo'
+                          : 'Outro tipo de negócio'}
                 </option>
               ))}
             </select>
@@ -243,7 +252,7 @@ export const ContactForm: React.FC = () => {
             htmlFor="property_name"
             className="block text-xs font-bold uppercase tracking-wider text-ink font-sora"
           >
-            Nome do local{' '}
+            Nome do negócio / espaço{' '}
             <span className="text-text-muted font-normal text-[11px]">(opcional)</span>
           </label>
           <input
@@ -251,7 +260,7 @@ export const ContactForm: React.FC = () => {
             name="property_name"
             type="text"
             maxLength={120}
-            placeholder="Ex: Pousada Villa Bella"
+            placeholder="Ex: Bistrô do Sol, Café Raiz, Hotel Bella Vista..."
             value={formData.property_name}
             onChange={handleChange}
             className="w-full px-4 py-3 rounded-xl bg-sand-light/70 border border-line focus:border-coral focus:ring-2 focus:ring-coral/20 text-ink placeholder:text-text-muted/60 text-sm focus:outline-none transition-all"
@@ -278,7 +287,7 @@ export const ContactForm: React.FC = () => {
           rows={4}
           required
           maxLength={2000}
-          placeholder="Conte sobre seu espaço, datas desejadas, o que gostaria de divulgar (hospedagem, gastronomia, lazer) e o formato de interesse..."
+          placeholder="Conte sobre seu espaço ou experiência (hotel, restaurante, bar, café, atração), datas desejadas e o modelo de interesse..."
           value={formData.message}
           onChange={handleChange}
           className={`w-full px-4 py-3 rounded-xl bg-sand-light/70 border ${

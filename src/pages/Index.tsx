@@ -266,7 +266,7 @@ export const Index: React.FC = () => {
                 </div>
               </div>
 
-              {/* Highlight Card: O Grande Diferencial para Hotéis */}
+              {/* Highlight Card: O Grande Diferencial para Negócios e Experiências */}
               <div className="w-full max-w-sm bg-gradient-to-br from-coral/10 via-sun/10 to-transparent rounded-2xl p-4 border border-coral/20 shadow-xs">
                 <div className="flex items-start gap-3">
                   <div className="w-8 h-8 rounded-lg bg-coral text-white flex items-center justify-center shrink-0 mt-0.5 shadow-xs">
@@ -278,7 +278,8 @@ export const Index: React.FC = () => {
                     </span>
                     <p className="text-xs text-text-body leading-relaxed">
                       <strong>Conteúdo + Agência:</strong> Divulgação nas redes sociais somada à
-                      recomendação ativa de clientes reais para reservas diretas no seu hotel.
+                      recomendação ativa e envio de clientes reais da agência para o seu negócio ou
+                      experiência.
                     </p>
                   </div>
                 </div>
@@ -354,10 +355,11 @@ export const Index: React.FC = () => {
                     </div>
                     <div>
                       <span className="block text-[11px] font-mono uppercase text-text-muted">
-                        Atuação Comercial &amp; Envio de Hóspedes
+                        Atuação Comercial &amp; Envio de Clientes Reais
                       </span>
                       <span className="font-semibold text-ink leading-snug">
-                        {creator.role} — envio ativo de clientes reais para os destinos parceiros
+                        {creator.role} — envio ativo de clientes reais para os negócios e
+                        experiências parceiras
                       </span>
                     </div>
                   </div>
@@ -687,7 +689,7 @@ export const Index: React.FC = () => {
               onClick={() => scrollToSection('#contato')}
               className="inline-flex items-center gap-2 text-sm font-semibold text-ink hover:text-coral transition-colors px-6 py-3 rounded-full border border-line hover:border-coral bg-sand/60 shadow-xs"
             >
-              <span>Gostou do estilo? Solicite um roteiro sob medida para o seu hotel</span>
+              <span>Gostou do estilo? Solicite uma proposta sob medida para o seu negócio</span>
               <ArrowRight className="w-4 h-4 text-coral" />
             </button>
           </div>
@@ -732,8 +734,8 @@ export const Index: React.FC = () => {
                 }`}
               >
                 {model.popular && (
-                  <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-gradient-to-r from-coral to-sun text-white text-[11px] font-bold font-sora uppercase tracking-wider px-4 py-1 rounded-full shadow-md">
-                    Mais solicitado por hotéis
+                  <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-gradient-to-r from-coral to-sun text-white text-[11px] font-bold font-sora uppercase tracking-wider px-4 py-1 rounded-full shadow-md whitespace-nowrap">
+                    Modelo mais solicitado
                   </div>
                 )}
 
@@ -873,7 +875,7 @@ export const Index: React.FC = () => {
               Bora fechar uma parceria?
             </h2>
             <p className="text-text-muted text-base font-light">
-              Conte sobre o seu empreendimento e eu respondo em até 24 horas.
+              Conte sobre o seu negócio ou experiência e eu respondo em até 24 horas.
             </p>
           </div>
 

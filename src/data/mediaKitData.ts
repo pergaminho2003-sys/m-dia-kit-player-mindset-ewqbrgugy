@@ -133,13 +133,13 @@ export const mediaKitData: MediaKitData = {
     agencyExperience:
       '4 anos liderando a agência Player Mindset Viagens e enviando clientes reais para destinos em todo o Brasil e no mundo',
     whyContentCreator:
-      'Uni a força da minha agência Player Mindset Viagens — que envia passageiros e clientes reais para os destinos — à criação de conteúdo autêntico. O resultado para o hotel não é apenas visibilidade: é potencial direto de reservas e fechamento de viagens reais.',
+      'Uni a força da minha agência Player Mindset Viagens — que envia passageiros e clientes reais para os destinos — à criação de conteúdo autêntico. O resultado para o seu negócio não é apenas visibilidade: é público qualificado no seu espaço e clientes reais consumindo sua experiência.',
     mainFormat: 'Reels, Vlogs e Conteúdo Editorial Imersivo',
     audienceAge: '25–34 anos (maioria com poder de compra e viajantes frequentes)',
     audienceGender: '65% mulheres • 35% homens',
     languages: 'Português (PT-BR) • Inglês',
-    niches: 'Hospedagem, gastronomia, aventura e cultura local',
-    bio: 'Sou criadora de conteúdo de viagem e dona da agência Player Mindset Viagens. Essa dupla atuação é o grande diferencial para hotéis e pousadas: além de produzir narrativas visuais imersivas que encantam e engajam milhares de viajantes, eu conecto o seu empreendimento a clientes reais que compram e viajam pela minha agência. Não é apenas exposição — é potencial concreto de reserva direta e hóspedes de verdade.',
+    niches: 'Hospedagem, gastronomia, bares, cafés, experiências e turismo',
+    bio: 'Sou criadora de conteúdo de viagem e dona da agência Player Mindset Viagens. Essa dupla atuação é o grande diferencial para negócios e experiências: além de produzir narrativas visuais imersivas que encantam e engajam milhares de viajantes, eu conecto o seu empreendimento (seja hotel, restaurante, bar, café ou atração turística) a clientes reais que compram e viajam pela minha agência. Não é apenas exposição nas redes — é envio de clientes de verdade para o seu negócio.',
   },
   hero: {
     badge: '🛂 Mídia Kit • Parcerias 2026',
@@ -147,7 +147,7 @@ export const mediaKitData: MediaKitData = {
     titleHighlight: 'próximo nível',
     titleEnd: ' do jogo.',
     subheadline:
-      'Sou a Rafaela Bevilaqua: criadora de conteúdo de viagem e dona da Player Mindset Viagens. Além de visibilidade e engajamento, conecto o seu hotel a clientes reais com potencial de reserva direta.',
+      'Sou a Rafaela Bevilaqua: criadora de conteúdo de viagem e dona da Player Mindset Viagens. Além de visibilidade e engajamento para o seu negócio ou experiência (hotéis, restaurantes, bares, cafés e turismo), conecto o seu espaço a clientes reais da minha agência.',
     image: heroKayakImg,
     stats: [
       { label: 'Seguidores fiéis', value: '7.560' },
@@ -221,7 +221,7 @@ export const mediaKitData: MediaKitData = {
       '65% mulheres',
       'Faixa 25–34 anos',
       'Brasil: SP, RJ, MG, BA',
-      'Interesses: hotéis, gastronomia, aventura',
+      'Interesses: hospedagem, gastronomia, bares, cafés e experiências',
       'Alta taxa de salvamento de roteiros',
     ],
   },
@@ -279,61 +279,63 @@ export const mediaKitData: MediaKitData = {
   ],
   marqueeItems: [
     'Roteiros Prontos',
-    'Reviews de Hotéis',
+    'Hospedagens & Hotéis',
     'Gastronomia Local',
+    'Restaurantes & Bares',
+    'Cafés & Padarias',
+    'Experiências de Turismo',
     'Aventura & Natureza',
-    'Cultura Local',
+    'Cultura & Lifestyle',
     'Destinos Nacionais',
-    'Resorts & Pousadas',
     'Experiências Únicas',
   ],
   partnerships: {
     kicker: 'FASE 04 — PARCERIA',
     title: 'Vamos jogar juntos?',
     subtitle:
-      'Mais que divulgação: conteúdo de alta qualidade aliado à força da agência Player Mindset Viagens para gerar reservas reais e clientes para o seu hotel.',
+      'Mais que divulgação: conteúdo de alta qualidade aliado à força da agência Player Mindset Viagens para gerar visibilidade e clientes reais para o seu negócio ou experiência.',
     models: [
       {
         id: 'hosting',
-        title: 'Hospedagem em troca de conteúdo & vitrine na agência',
+        title: 'Parceria de conteúdo & experiência cedida',
         description:
-          'Estadia e experiência completa em troca de divulgação imersiva e inclusão do hotel no radar de recomendações da Player Mindset Viagens.',
+          'Vivência da experiência completa (hospedagem, consumo gastronômico ou atração) em troca de divulgação imersiva e inclusão no radar de recomendações da agência.',
         iconName: 'BedDouble',
         popular: true,
         checklist: [
           '1 Reel de experiência completo (alta produção e narrativa imersiva)',
-          '1 post no feed + cobertura de Stories em tempo real durante a estadia',
-          'Link direto para reserva do hotel nos stories por 48h',
-          'Apresentação e recomendação do hotel para clientes e viajantes da agência',
+          '1 post no feed + cobertura de Stories em tempo real durante a visita',
+          'Link direto para reservas, cardápio ou contato nos stories por 48h',
+          'Apresentação e recomendação do negócio para clientes e viajantes da agência',
           'Relatório detalhado de alcance, engajamento e cliques gerados',
         ],
       },
       {
         id: 'audience',
-        title: 'Parceria com a minha audiência & clientes da agência',
+        title: 'Parceria de divulgação & audiência com benefício exclusivo',
         description:
-          'Condição especial ou cupom exclusivo promovido tanto nas redes sociais quanto no atendimento de clientes da Player Mindset Viagens.',
+          'Ação com condição especial ou benefício exclusivo promovido nas redes sociais e recomendado ativamente para viajantes e clientes da Player Mindset Viagens.',
         iconName: 'Tag',
         checklist: [
-          'Cupom de desconto ou benefício exclusivo para seguidores e viajantes',
-          'Sequência de Stories divulgando o benefício e direcionando para reservas diretas',
-          'Recomendação ativa do hotel para roteiros fechados pela agência',
-          '1 post dedicado com chamada para ação direta de reserva',
+          'Cupom de desconto ou benefício exclusivo para seguidores e clientes da agência',
+          'Sequência de Stories divulgando a experiência e direcionando para visitas/reservas diretas',
+          'Recomendação ativa do estabelecimento nos roteiros montados pela agência',
+          '1 post dedicado com chamada para ação direta para o seu negócio',
           'Relatório de conversão, interesse e cliques monitorados',
         ],
       },
       {
         id: 'special',
-        title: 'Campanha especial, collab paga & inclusão em roteiros',
+        title: 'Campanha especial, collab remunerada & envio comercial de clientes',
         description:
-          'Produção audiovisual sob medida para os canais do hotel combinada à estratégia comercial de envio de hóspedes pela agência.',
+          'Produção audiovisual sob medida com cessão de material para seus canais combinada à estratégia comercial da agência para envio recorrente de clientes.',
         iconName: 'Star',
         checklist: [
           'Pacote completo de fotos profissionais em alta resolução + vídeos editados',
-          'Reels e vídeos no formato vertical para uso livre nas redes e anúncios do hotel',
+          'Reels e vídeos verticais para uso livre nas redes e anúncios do seu negócio',
           'Cessão de direitos de uso de imagem e captação para tráfego pago',
-          'Prioridade na indicação do destino para pacotes e clientes da agência Player Mindset',
-          'Roteiro e briefing previamente aprovados com foco em conversão',
+          'Prioridade na indicação do seu espaço em pacotes e roteiros fechados pela agência',
+          'Roteiro e briefing previamente aprovados com foco em conversão e vendas',
         ],
       },
     ],
@@ -341,7 +343,8 @@ export const mediaKitData: MediaKitData = {
       {
         step: 1,
         title: 'Envie sua proposta',
-        description: 'Preencha o formulário abaixo contando sobre o seu hotel, pousada ou resort.',
+        description:
+          'Preencha o formulário abaixo contando sobre o seu negócio (hotel, restaurante, bar, café ou experiência).',
       },
       {
         step: 2,
@@ -353,30 +356,30 @@ export const mediaKitData: MediaKitData = {
         step: 3,
         title: 'Você recebe a visita',
         description:
-          'Experiência real, captação profissional e vivência das melhores instalações e serviços.',
+          'Experiência real, captação profissional e vivência autêntica do seu espaço e serviços.',
       },
       {
         step: 4,
-        title: 'Conteúdo, visibilidade e reservas',
+        title: 'Conteúdo, visibilidade e clientes',
         description:
-          'Publicação nas redes, indicação na agência Player Mindset e entrega de relatório completo.',
+          'Publicação nas redes, indicação ativa para clientes da Player Mindset e entrega de relatório completo.',
       },
     ],
     testimonials: [
       {
         id: 't1',
         quote:
-          'A parceria com a Player Mindset trouxe um aumento de 30% nas reservas diretas no mês seguinte à divulgação. Os vídeos captaram perfeitamente a atmosfera do nosso hotel e recebemos clientes reais indicados por ela!',
+          'A parceria com a Player Mindset trouxe um aumento notável de novos clientes no mês seguinte à divulgação. Os vídeos captaram perfeitamente a atmosfera do nosso espaço e recebemos pessoas reais indicadas pela agência!',
         author: 'Ana Paula',
-        role: 'Gerente Geral, Hotel Recanto das Águas',
+        role: 'Gerência Comercial, Recanto das Águas',
         stars: 5,
       },
       {
         id: 't2',
         quote:
-          'Profissionalismo e conteúdo de altíssima qualidade. Além do alcance nas redes, a Rafaela como dona de agência entende do mercado e direcionou hóspedes excelentes para a nossa pousada!',
+          'Profissionalismo e conteúdo de altíssima qualidade. Além do alcance nas redes sociais, a Rafaela como dona de agência entende do mercado e direcionou clientes excelentes para a nossa experiência!',
         author: 'Marcos Silva',
-        role: 'Proprietário, Pousada do Sol',
+        role: 'Sócio-proprietário, Experiência Pousada do Sol',
         stars: 5,
       },
     ],
