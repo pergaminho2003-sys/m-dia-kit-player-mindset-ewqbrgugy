@@ -237,7 +237,7 @@ export const mediaKitData: MediaKitData = {
     },
     {
       id: 'g2',
-      title: 'Eurotrip: Paris & Torre Eiffel',
+      title: 'Eurotrip',
       metric: '5.2k views',
       category: 'Vlog',
       image: parisVlogImg,
