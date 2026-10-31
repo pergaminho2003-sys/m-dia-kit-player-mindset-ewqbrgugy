@@ -529,32 +529,7 @@ export const Index: React.FC = () => {
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-              {numbers.platforms.map((plat) => (
-                <div
-                  key={plat.name}
-                  className="bg-ink/60 rounded-xl p-4 border border-white/10 space-y-3"
-                >
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-2">
-                      {getPlatformIcon(plat.iconName)}
-                      <span className="font-sora font-semibold text-sm text-white">
-                        {plat.name}
-                      </span>
-                    </div>
-                  </div>
-                  <div className="font-serif font-bold text-lg text-white">{plat.count}</div>
-                  {/* Progress bar */}
-                  <div className="w-full bg-white/10 rounded-full h-1.5 overflow-hidden">
-                    <div
-                      className="h-full rounded-full transition-all duration-1000"
-                      style={{
-                        width: `${plat.percentage}%`,
-                        backgroundColor: plat.color,
-                      }}
-                    />
-                  </div>
-                </div>
-              ))}
+              {numbers.platforms.map((plat) => null)}
             </div>
 
             {/* Audience Profile Chips */}
