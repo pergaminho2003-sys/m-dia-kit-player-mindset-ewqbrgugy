@@ -631,9 +631,7 @@ export const Index: React.FC = () => {
                   <h3 className="font-serif font-bold text-lg sm:text-xl text-white leading-snug group-hover:text-sun transition-colors">
                     {item.title}
                   </h3>
-                  <div className="flex items-center gap-2 mt-1 text-xs font-mono text-coral-light">
-                    <span>✨ {item.metric}</span>
-                  </div>
+                  <div className="flex items-center gap-2 mt-1 text-xs font-mono text-coral-light"></div>
                 </div>
               </div>
             ))}
