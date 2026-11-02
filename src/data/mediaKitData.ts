@@ -5,7 +5,7 @@ import parisVlogImg from '@/assets/img2100-f4ce0.jpg'
 import galleryHoteisImg from '@/assets/design-sem-nome-4-6ad02.jpg'
 import galleryExpedition4x4Img from '@/assets/img5644-89bc4.jpg'
 
-// URLs diretas dos anexos enviados pela usuária (fotos reais: Bares e restaurantes, Cenote e Caiaque ao pôr do sol)
+// URLs diretas dos anexos enviados pela usuária (fotos reais: Bares e restaurantes, Cenote e Experiências)
 const galleryGastronomiaImg =
   'https://dagtlwojkqyivnjgveda.supabase.co/storage/v1/object/public/message-attachments/8994b4f1-fde4-4917-a3df-21dc374d65b0/img3941-b7a19.jpg'
 const galleryCenoteImg =
@@ -277,7 +277,7 @@ export const mediaKitData: MediaKitData = {
     },
     {
       id: 'g6',
-      title: 'Caiaque ao pôr do sol',
+      title: 'Experiências',
       metric: '12.5k views',
       category: 'Post',
       image: galleryCaiaqueImg,
