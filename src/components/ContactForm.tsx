@@ -314,7 +314,7 @@ export const ContactForm: React.FC = () => {
           </>
         ) : (
           <>
-            <Sparkles className="w-4 h-4 text-sun" />
+            <Sparkles className="w-4 h-4 text-white" />
             <span>Enviar proposta de parceria</span>
             <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
           </>

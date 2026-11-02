@@ -54,9 +54,9 @@ export default {
           foreground: 'hsl(var(--card-foreground))',
         },
         coral: {
-          DEFAULT: '#FF6B4A',
-          dark: '#E85535',
-          light: '#FF8A6E',
+          DEFAULT: '#C13A2F',
+          dark: '#A52A20',
+          light: '#D94E42',
         },
         lagoon: {
           DEFAULT: '#2EC4B6',
@@ -64,9 +64,9 @@ export default {
           light: '#53D3C7',
         },
         sun: {
-          DEFAULT: '#FFB800',
-          dark: '#E0A200',
-          light: '#FFC833',
+          DEFAULT: '#E65A28',
+          dark: '#CC4819',
+          light: '#F27A45',
         },
         ink: {
           DEFAULT: '#0A1128',
