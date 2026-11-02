@@ -716,16 +716,32 @@ export const Index: React.FC = () => {
                 </div>
 
                 <div className="pt-8">
-                  <button
-                    onClick={() => scrollToSection('#contato')}
-                    className={`w-full py-3 rounded-xl font-sora font-semibold text-xs tracking-wider uppercase transition-all ${
-                      model.popular
-                        ? 'bg-coral text-white hover:bg-coral-dark shadow-md shadow-coral/30'
-                        : 'bg-white/10 text-white hover:bg-white/20 border border-white/20'
-                    }`}
-                  >
-                    Escolher este modelo
-                  </button>
+                  {model.id === 'special' ? (
+                    <a
+                      href={
+                        creator.whatsappSpecialCampaignUrl ||
+                        `https://wa.me/${creator.whatsappNumber.replace(/\D/g, '')}?text=${encodeURIComponent(
+                          'Olá! Vi o mídia kit da Player Mindset Viagens e tenho interesse na Campanha Especial — queria conversar sobre os detalhes.',
+                        )}`
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-full inline-flex items-center justify-center py-3 rounded-xl font-sora font-semibold text-xs tracking-wider uppercase transition-all bg-white/10 text-white hover:bg-white/20 border border-white/20"
+                    >
+                      Escolher este modelo
+                    </a>
+                  ) : (
+                    <button
+                      onClick={() => scrollToSection('#contato')}
+                      className={`w-full py-3 rounded-xl font-sora font-semibold text-xs tracking-wider uppercase transition-all ${
+                        model.popular
+                          ? 'bg-coral text-white hover:bg-coral-dark shadow-md shadow-coral/30'
+                          : 'bg-white/10 text-white hover:bg-white/20 border border-white/20'
+                      }`}
+                    >
+                      Escolher este modelo
+                    </button>
+                  )}
                 </div>
               </div>
             ))}

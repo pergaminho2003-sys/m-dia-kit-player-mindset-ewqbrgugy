@@ -29,6 +29,7 @@ export interface MediaKitData {
     youtubeUrl: string
     whatsappNumber: string
     whatsappUrl: string
+    whatsappSpecialCampaignUrl?: string
     email: string
     responseTime: string
     baseLocation: string
@@ -134,6 +135,8 @@ export const mediaKitData: MediaKitData = {
     whatsappNumber: '+55 11 99999-9999',
     whatsappUrl:
       'https://wa.me/5511999999999?text=Ol%C3%A1%20Rafaela!%20Vim%20pelo%20M%C3%ADdia%20Kit%20da%20Player%20Mindset%20Viagens%20e%20gostaria%20de%20conversar%20sobre%20uma%20parceria.',
+    whatsappSpecialCampaignUrl:
+      'https://wa.me/5511999999999?text=Ol%C3%A1!%20Vi%20o%20m%C3%ADdia%20kit%20da%20Player%20Mindset%20Viagens%20e%20tenho%20interesse%20na%20Campanha%20Especial%20%E2%80%94%20queria%20conversar%20sobre%20os%20detalhes.',
     email: 'contato@playermindsetviagens.com.br',
     responseTime: 'Resposta em até 24h úteis',
     baseLocation: 'Brasil (disponível para viagens nacionais e internacionais)',
