@@ -1,8 +1,6 @@
-/* Tailwind config for the frontend react app. This is where the app theme should be defined: https://v2.tailwindcss.com/docs/configuration. */
 import type { Config } from 'tailwindcss'
-import animatePlugin from 'tailwindcss-animate'
-import typographyPlugin from '@tailwindcss/typography'
-import aspectRatioPlugin from '@tailwindcss/aspect-ratio'
+import tailwindcssAnimate from 'tailwindcss-animate'
+import typography from '@tailwindcss/typography'
 
 export default {
   darkMode: ['class'],
@@ -18,47 +16,11 @@ export default {
       center: true,
       padding: '2rem',
       screens: {
-        sm: '640px',
-        md: '768px',
-        lg: '1024px',
-        xl: '1280px',
         '2xl': '1400px',
       },
     },
     extend: {
-      fontFamily: {
-        sans: ['Sora', 'system-ui', 'sans-serif'],
-        serif: ['Fraunces', 'serif'],
-        display: ['Fraunces', 'serif'],
-        sora: ['Sora', 'system-ui', 'sans-serif'],
-      },
       colors: {
-        ink: {
-          DEFAULT: '#0F2B33',
-          soft: '#143B47',
-        },
-        sand: {
-          DEFAULT: '#FAF4E8',
-          light: '#FDFBF7',
-          dark: '#E8DFCE',
-        },
-        coral: {
-          DEFAULT: '#FF6B35',
-          dark: '#E8551F',
-          light: '#FF9E5E',
-        },
-        lagoon: {
-          DEFAULT: '#0FB5BA',
-          dark: '#0B8F93',
-          light: '#65E3E7',
-        },
-        sun: {
-          DEFAULT: '#FFC845',
-          light: '#FFE494',
-        },
-        'text-body': '#2E4047',
-        'text-muted': '#6B7C82',
-        line: '#E8DFCE',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
@@ -92,41 +54,65 @@ export default {
           DEFAULT: 'hsl(var(--card))',
           foreground: 'hsl(var(--card-foreground))',
         },
-        sidebar: {
-          DEFAULT: 'hsl(var(--sidebar-background))',
-          foreground: 'hsl(var(--sidebar-foreground))',
-          primary: 'hsl(var(--sidebar-primary))',
-          'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-          accent: 'hsl(var(--sidebar-accent))',
-          'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-          border: 'hsl(var(--sidebar-border))',
-          ring: 'hsl(var(--sidebar-ring))',
+        coral: {
+          DEFAULT: '#FF6B4A',
+          dark: '#E85535',
+          light: '#FF8A6E',
         },
-        chart: {
-          1: 'hsl(var(--chart-1))',
-          2: 'hsl(var(--chart-2))',
-          3: 'hsl(var(--chart-3))',
-          4: 'hsl(var(--chart-4))',
-          5: 'hsl(var(--chart-5))',
+        lagoon: {
+          DEFAULT: '#2EC4B6',
+          dark: '#249E93',
+          light: '#53D3C7',
         },
+        sun: {
+          DEFAULT: '#FFB800',
+          dark: '#E0A200',
+          light: '#FFC833',
+        },
+        ink: {
+          DEFAULT: '#0A1128',
+          soft: '#1C2541',
+          light: '#3A4B7C',
+        },
+        sand: {
+          DEFAULT: '#FBF8F3',
+          dark: '#F3EFE8',
+          light: '#FFFFFF',
+        },
+        line: '#EAE5DC',
+        'text-body': '#4A5568',
+        'text-muted': '#718096',
       },
       borderRadius: {
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',
       },
-      transitionProperty: {
-        width: 'width',
-        height: 'height',
+      fontFamily: {
+        serif: ['Instrument Serif', 'Georgia', 'serif'],
+        sora: ['Sora', 'sans-serif'],
+        mono: ['JetBrains Mono', 'monospace'],
       },
-      boxShadow: {
-        subtle: '0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.03)',
-        elevation: '0 4px 20px rgba(0, 0, 0, 0.05)',
+      keyframes: {
+        'accordion-down': {
+          from: { height: '0' },
+          to: { height: 'var(--radix-accordion-content-height)' },
+        },
+        'accordion-up': {
+          from: { height: 'var(--radix-accordion-content-height)' },
+          to: { height: '0' },
+        },
+        marquee: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-50%)' },
+        },
       },
-      transitionTimingFunction: {
-        apple: 'cubic-bezier(0.42, 0, 0.58, 1)',
+      animation: {
+        'accordion-down': 'accordion-down 0.2s ease-out',
+        'accordion-up': 'accordion-up 0.2s ease-out',
+        marquee: 'marquee 30s linear infinite',
       },
     },
   },
-  plugins: [animatePlugin, typographyPlugin, aspectRatioPlugin],
+  plugins: [tailwindcssAnimate, typography],
 } satisfies Config

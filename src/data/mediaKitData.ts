@@ -1,12 +1,13 @@
 import heroKayakImg from '@/assets/captura-de-tela-2026-08-30-as-20.06.28-4bf97.png'
 import polaroidTravelImg from '@/assets/700d315f-02be-4e03-8641-4558334d245f-6cc35.jpg'
 import portraitHeadshotImg from '@/assets/700d315f-02be-4e03-8641-4558334d245f-e278b.jpg'
-import galleryGastronomiaImg from '@/assets/gastronomia-restaurantes.svg'
 import parisVlogImg from '@/assets/img2100-f4ce0.jpg'
 import galleryHoteisImg from '@/assets/design-sem-nome-4-6ad02.jpg'
 import galleryExpedition4x4Img from '@/assets/img5644-89bc4.jpg'
 
-// URLs diretas dos anexos enviados pelo usuário (fotos reais do Cenote e Caiaque ao pôr do sol)
+// URLs diretas dos anexos enviados pela usuária (fotos reais: Bares e restaurantes, Cenote e Caiaque ao pôr do sol)
+const galleryGastronomiaImg =
+  'https://dagtlwojkqyivnjgveda.supabase.co/storage/v1/object/public/message-attachments/8994b4f1-fde4-4917-a3df-21dc374d65b0/img3941-b7a19.jpg'
 const galleryCenoteImg =
   'https://dagtlwojkqyivnjgveda.supabase.co/storage/v1/object/public/message-attachments/8994b4f1-fde4-4917-a3df-21dc374d65b0/img5143-08d8a.jpg'
 const galleryCaiaqueImg =
