@@ -126,7 +126,7 @@ export const mediaKitData: MediaKitData = {
     photo: polaroidTravelImg,
     // portraitPhoto: retrato profissional de rosto para parceiros associarem uma pessoa real
     portraitPhoto: portraitHeadshotImg,
-    tagline: 'Sua viagem no próximo nível do jogo.',
+    tagline: 'No próximo nível do jogo.',
     handle: '@rafabevilaqua_',
     instagramUrl: 'https://instagram.com/rafabevilaqua_',
     tiktokUrl: 'https://tiktok.com/@rafabevilaqua_',
@@ -151,7 +151,7 @@ export const mediaKitData: MediaKitData = {
   },
   hero: {
     badge: '🛂 Mídia Kit • Parcerias 2026',
-    titleLead: 'Sua viagem no ',
+    titleLead: 'No ',
     titleHighlight: 'próximo nível',
     titleEnd: ' do jogo.',
     subheadline:
