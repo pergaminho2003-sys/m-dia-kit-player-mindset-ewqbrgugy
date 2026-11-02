@@ -81,8 +81,6 @@ export const Index: React.FC = () => {
         return <BedDouble className="w-7 h-7 text-coral" />
       case 'Tag':
         return <Tag className="w-7 h-7 text-lagoon" />
-      case 'Star':
-        return <Star className="w-7 h-7 text-sun fill-sun/20" />
       default:
         return <Sparkles className="w-7 h-7 text-coral" />
     }
@@ -675,12 +673,12 @@ export const Index: React.FC = () => {
             <p className="text-white/75 text-base font-light">{partnerships.subtitle}</p>
           </div>
 
-          {/* 3 Partnership Model Cards */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+          {/* Partnership Model Cards (2 modelos) */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch max-w-5xl mx-auto">
             {partnerships.models.map((model) => (
               <div
                 key={model.id}
-                className={`relative rounded-2xl p-7 flex flex-col justify-between transition-all duration-300 hover:-translate-y-2 shadow-2xl ${
+                className={`relative rounded-2xl p-7 sm:p-8 flex flex-col justify-between transition-all duration-300 hover:-translate-y-2 shadow-2xl ${
                   model.popular
                     ? 'bg-gradient-to-b from-white/15 to-white/5 border-2 border-coral shadow-coral/20'
                     : 'bg-white/5 backdrop-blur-md border border-white/15 hover:border-white/30'
@@ -716,32 +714,16 @@ export const Index: React.FC = () => {
                 </div>
 
                 <div className="pt-8">
-                  {model.id === 'special' ? (
-                    <a
-                      href={
-                        creator.whatsappSpecialCampaignUrl ||
-                        `https://wa.me/${creator.whatsappNumber.replace(/\D/g, '')}?text=${encodeURIComponent(
-                          'Olá! Vi o mídia kit da Player Mindset Viagens e tenho interesse na Campanha Especial — queria conversar sobre os detalhes.',
-                        )}`
-                      }
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="w-full inline-flex items-center justify-center py-3 rounded-xl font-sora font-semibold text-xs tracking-wider uppercase transition-all bg-white/10 text-white hover:bg-white/20 border border-white/20"
-                    >
-                      Escolher este modelo
-                    </a>
-                  ) : (
-                    <button
-                      onClick={() => scrollToSection('#contato')}
-                      className={`w-full py-3 rounded-xl font-sora font-semibold text-xs tracking-wider uppercase transition-all ${
-                        model.popular
-                          ? 'bg-coral text-white hover:bg-coral-dark shadow-md shadow-coral/30'
-                          : 'bg-white/10 text-white hover:bg-white/20 border border-white/20'
-                      }`}
-                    >
-                      Escolher este modelo
-                    </button>
-                  )}
+                  <button
+                    onClick={() => scrollToSection('#contato')}
+                    className={`w-full py-3 rounded-xl font-sora font-semibold text-xs tracking-wider uppercase transition-all ${
+                      model.popular
+                        ? 'bg-coral text-white hover:bg-coral-dark shadow-md shadow-coral/30'
+                        : 'bg-white/10 text-white hover:bg-white/20 border border-white/20'
+                    }`}
+                  >
+                    Escolher este modelo
+                  </button>
                 </div>
               </div>
             ))}

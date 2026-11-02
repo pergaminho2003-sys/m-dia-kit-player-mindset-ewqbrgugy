@@ -29,7 +29,6 @@ export interface MediaKitData {
     youtubeUrl: string
     whatsappNumber: string
     whatsappUrl: string
-    whatsappSpecialCampaignUrl?: string
     email: string
     responseTime: string
     baseLocation: string
@@ -97,7 +96,7 @@ export interface MediaKitData {
       id: string
       title: string
       description: string
-      iconName: 'BedDouble' | 'Tag' | 'Star'
+      iconName: 'BedDouble' | 'Tag'
       popular?: boolean
       checklist: string[]
     }>
@@ -135,8 +134,6 @@ export const mediaKitData: MediaKitData = {
     whatsappNumber: '+55 11 99999-9999',
     whatsappUrl:
       'https://wa.me/5511999999999?text=Ol%C3%A1%20Rafaela!%20Vim%20pelo%20M%C3%ADdia%20Kit%20da%20Player%20Mindset%20Viagens%20e%20gostaria%20de%20conversar%20sobre%20uma%20parceria.',
-    whatsappSpecialCampaignUrl:
-      'https://wa.me/5511999999999?text=Ol%C3%A1!%20Vi%20o%20m%C3%ADdia%20kit%20da%20Player%20Mindset%20Viagens%20e%20tenho%20interesse%20na%20Campanha%20Especial%20%E2%80%94%20queria%20conversar%20sobre%20os%20detalhes.',
     email: 'contato@playermindsetviagens.com.br',
     responseTime: 'Resposta em até 24h úteis',
     baseLocation: 'Brasil (disponível para viagens nacionais e internacionais)',
@@ -324,7 +321,7 @@ export const mediaKitData: MediaKitData = {
         id: 'audience',
         title: 'Parceria de divulgação & audiência com benefício exclusivo',
         description:
-          'Ação com condição especial ou benefício exclusivo promovido nas redes sociais e recomendado ativamente para viajantes e clientes da Player Mindset Viagens.',
+          'Ação com benefício ou condição exclusiva promovida nas redes sociais e recomendada ativamente para viajantes e clientes da Player Mindset Viagens.',
         iconName: 'Tag',
         checklist: [
           'Cupom de desconto ou benefício exclusivo para seguidores e clientes da agência',
@@ -332,20 +329,6 @@ export const mediaKitData: MediaKitData = {
           'Recomendação ativa do estabelecimento nos roteiros montados pela agência',
           '1 post dedicado com chamada para ação direta para o seu negócio',
           'Relatório de conversão, interesse e cliques monitorados',
-        ],
-      },
-      {
-        id: 'special',
-        title: 'Campanha especial, collab remunerada & envio comercial de clientes',
-        description:
-          'Produção audiovisual sob medida com cessão de material para seus canais combinada à estratégia comercial da agência para envio recorrente de clientes.',
-        iconName: 'Star',
-        checklist: [
-          'Pacote completo de fotos profissionais em alta resolução + vídeos editados',
-          'Reels e vídeos verticais para uso livre nas redes e anúncios do seu negócio',
-          'Cessão de direitos de uso de imagem e captação para tráfego pago',
-          'Prioridade na indicação do seu espaço em pacotes e roteiros fechados pela agência',
-          'Roteiro e briefing previamente aprovados com foco em conversão e vendas',
         ],
       },
     ],
