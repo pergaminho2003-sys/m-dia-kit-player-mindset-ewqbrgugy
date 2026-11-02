@@ -348,8 +348,7 @@ export const mediaKitData: MediaKitData = {
       {
         step: 3,
         title: 'Você recebe a visita',
-        description:
-          'Experiência real, captação profissional e vivência autêntica do seu espaço e serviços.',
+        description: 'Experiência real, captação e vivência autêntica do seu espaço e serviços.',
       },
       {
         step: 4,
