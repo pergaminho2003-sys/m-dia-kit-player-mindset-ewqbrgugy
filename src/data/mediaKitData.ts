@@ -155,7 +155,7 @@ export const mediaKitData: MediaKitData = {
     titleHighlight: 'próximo nível',
     titleEnd: ' do jogo.',
     subheadline:
-      'Sou a Rafaela Bevilaqua: criadora de conteúdo de viagem e dona da Player Mindset Viagens. Além de visibilidade e engajamento para o seu negócio ou experiência (hotéis, restaurantes, bares, cafés e turismo), conecto o seu espaço a clientes reais da minha agência.',
+      'Sou a Rafaela Bevilaqua: criadora de conteúdo de viagem e dona da Player Mindset Viagens. Além de visibilidade para o seu negócio ou experiência (hotéis, restaurantes, bares, cafés e turismo), conecto o seu espaço a clientes reais da minha agência.',
     image: heroKayakImg,
     stats: [
       { label: 'Seguidores fiéis', value: '7.560' },
