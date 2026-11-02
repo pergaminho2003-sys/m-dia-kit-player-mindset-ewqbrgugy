@@ -1,4 +1,5 @@
 import React from 'react'
+import brandIconImg from '@/assets/download-70586.png'
 
 interface LogoProps {
   className?: string
@@ -9,21 +10,12 @@ export const Logo: React.FC<LogoProps> = ({ className = '', isDarkTheme = false 
   return (
     <div className={`flex items-center gap-2.5 select-none ${className}`}>
       {/* Icon Badge */}
-      <div className="relative flex items-center justify-center w-10 h-10 rounded-xl bg-gradient-to-tr from-coral to-sun shadow-md shadow-coral/20 text-white shrink-0 transform -rotate-3 transition-transform hover:rotate-0 duration-300">
-        <svg
-          className="w-5 h-5 fill-current transform translate-x-0.5 -translate-y-0.5"
-          viewBox="0 0 24 24"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M3.5 12L20.5 3.5L12 20.5L10.5 13.5L3.5 12Z"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
+      <div className="relative flex items-center justify-center w-10 h-10 rounded-xl bg-gradient-to-tr from-coral to-sun shadow-md shadow-coral/20 shrink-0 transform -rotate-3 transition-transform hover:rotate-0 duration-300 overflow-hidden p-1.5">
+        <img
+          src={brandIconImg}
+          alt="Player Mindset Viagens"
+          className="w-full h-full object-contain filter drop-shadow-xs"
+        />
       </div>
 
       {/* Wordmark */}
