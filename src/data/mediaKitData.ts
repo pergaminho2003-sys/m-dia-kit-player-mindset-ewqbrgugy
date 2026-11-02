@@ -136,7 +136,7 @@ export const mediaKitData: MediaKitData = {
       'https://wa.me/5516997086308?text=Ol%C3%A1%20Rafaela!%20Vim%20pelo%20M%C3%ADdia%20Kit%20da%20Player%20Mindset%20Viagens%20e%20gostaria%20de%20conversar%20sobre%20uma%20parceria.',
     email: 'rafaela.bevilaqua@gmail.com',
     responseTime: 'Resposta em até 24h úteis',
-    baseLocation: 'Brasil (disponível para viagens nacionais e internacionais)',
+    baseLocation: 'Brasil',
     education: 'Graduada em Educação Física e pós-graduada em Fisiologia do Exercício',
     agencyExperience:
       '4 anos liderando a agência Player Mindset Viagens e enviando clientes reais para destinos em todo o Brasil e no mundo',
