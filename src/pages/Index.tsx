@@ -666,7 +666,6 @@ export const Index: React.FC = () => {
             <h2 className="font-serif font-bold text-3xl sm:text-4xl lg:text-5xl text-white leading-tight">
               {partnerships.title}
             </h2>
-            <p className="text-white/75 text-base font-light">{partnerships.subtitle}</p>
           </div>
 
           {/* Partnership Model Cards (2 modelos) */}
@@ -768,39 +767,6 @@ export const Index: React.FC = () => {
           </div>
 
           {/* Testimonials ("Quem já jogou comigo") */}
-          <div className="space-y-8">
-            <div className="text-center">
-              <span className="text-xs font-mono uppercase tracking-widest text-sun">
-                Depoimentos reais
-              </span>
-              <h3 className="font-serif font-bold text-2xl sm:text-3xl text-white mt-1">
-                Quem já jogou comigo
-              </h3>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {partnerships.testimonials.map((t) => (
-                <div
-                  key={t.id}
-                  className="bg-white/5 backdrop-blur-sm rounded-2xl p-7 border border-white/10 space-y-4 hover:border-sun/40 transition-colors"
-                >
-                  {/* 5 Coral Stars */}
-                  <div className="flex items-center gap-1">
-                    {[...Array(t.stars)].map((_, i) => (
-                      <Star key={i} className="w-4 h-4 text-coral fill-coral" />
-                    ))}
-                  </div>
-                  <blockquote className="text-sm sm:text-base text-white/90 italic font-serif leading-relaxed">
-                    &ldquo;{t.quote}&rdquo;
-                  </blockquote>
-                  <div className="pt-2 border-t border-white/10">
-                    <p className="font-sora font-semibold text-sm text-white">{t.author}</p>
-                    <p className="text-xs text-coral-light">{t.role}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
         </div>
       </section>
 
