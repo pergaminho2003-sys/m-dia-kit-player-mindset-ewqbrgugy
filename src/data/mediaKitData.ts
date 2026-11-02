@@ -353,8 +353,7 @@ export const mediaKitData: MediaKitData = {
       {
         step: 4,
         title: 'Conteúdo, visibilidade e clientes',
-        description:
-          'Publicação nas redes, indicação ativa para clientes da Player Mindset e entrega de relatório completo.',
+        description: 'Publicação nas redes e indicação ativa para clientes da Player Mindset.',
       },
     ],
     testimonials: [
