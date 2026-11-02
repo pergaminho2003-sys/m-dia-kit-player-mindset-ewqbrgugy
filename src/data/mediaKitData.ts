@@ -312,7 +312,7 @@ export const mediaKitData: MediaKitData = {
         checklist: [
           '1 Reel de experiência completo (alta produção e narrativa imersiva)',
           '1 post no feed + cobertura de Stories em tempo real durante a visita',
-          'Link direto para reservas, cardápio ou contato nos stories por 48h',
+          'Link direto para reservas, cardápio ou contato nos stories por 24h',
           'Apresentação e recomendação do negócio para clientes e viajantes da agência',
         ],
       },
