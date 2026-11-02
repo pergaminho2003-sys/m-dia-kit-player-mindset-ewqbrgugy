@@ -604,11 +604,7 @@ export const Index: React.FC = () => {
                 />
 
                 {/* Category Tag (Top-Left) */}
-                <div className="absolute top-3.5 left-3.5 z-20">
-                  <span className="px-3 py-1 rounded-full text-[11px] font-bold font-sora tracking-wide uppercase bg-ink/80 backdrop-blur-md text-white border border-white/20 shadow-sm">
-                    {item.category}
-                  </span>
-                </div>
+                <div className="absolute top-3.5 left-3.5 z-20"></div>
 
                 {/* Permanent subtle dark gradient at bottom */}
                 <div className="absolute inset-0 bg-gradient-to-t from-ink/90 via-ink/30 to-transparent pointer-events-none" />
