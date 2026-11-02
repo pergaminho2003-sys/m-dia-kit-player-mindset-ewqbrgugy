@@ -147,7 +147,7 @@ export const mediaKitData: MediaKitData = {
     audienceGender: '65% mulheres • 35% homens',
     languages: 'Português (PT-BR) • Inglês',
     niches: 'Hospedagem, gastronomia, bares, cafés, experiências e turismo',
-    bio: 'Sou criadora de conteúdo de viagem e dona da agência Player Mindset Viagens. Essa dupla atuação é o grande diferencial para negócios e experiências: além de produzir narrativas visuais imersivas que encantam e engajam milhares de viajantes, eu conecto o seu empreendimento (seja hotel, restaurante, bar, café ou atração turística) a clientes reais que compram e viajam pela minha agência. Não é apenas exposição nas redes — é envio de clientes de verdade para o seu negócio.',
+    bio: 'Sou criadora de conteúdo de viagem e dona da agência Player Mindset Viagens. Essa dupla atuação é o grande diferencial para negócios e experiências: além de produzir conteúdo que encanta e engaja viajantes todos os dias, eu conecto o seu empreendimento (seja hotel, restaurante, bar, café ou atração turística) a clientes reais que compram e viajam pela minha agência. Não é apenas exposição nas redes — é envio de clientes de verdade para o seu negócio.',
   },
   hero: {
     badge: '🛂 Mídia Kit • Parcerias 2026',
