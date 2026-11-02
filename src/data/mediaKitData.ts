@@ -131,10 +131,10 @@ export const mediaKitData: MediaKitData = {
     instagramUrl: 'https://instagram.com/rafabevilaqua_',
     tiktokUrl: 'https://tiktok.com/@rafabevilaqua_',
     youtubeUrl: 'https://youtube.com/@rafabevilaqua_',
-    whatsappNumber: '+55 11 99999-9999',
+    whatsappNumber: '(16) 99708-6308',
     whatsappUrl:
-      'https://wa.me/5511999999999?text=Ol%C3%A1%20Rafaela!%20Vim%20pelo%20M%C3%ADdia%20Kit%20da%20Player%20Mindset%20Viagens%20e%20gostaria%20de%20conversar%20sobre%20uma%20parceria.',
-    email: 'contato@playermindsetviagens.com.br',
+      'https://wa.me/5516997086308?text=Ol%C3%A1%20Rafaela!%20Vim%20pelo%20M%C3%ADdia%20Kit%20da%20Player%20Mindset%20Viagens%20e%20gostaria%20de%20conversar%20sobre%20uma%20parceria.',
+    email: 'rafaela.bevilaqua@gmail.com',
     responseTime: 'Resposta em até 24h úteis',
     baseLocation: 'Brasil (disponível para viagens nacionais e internacionais)',
     education: 'Graduada em Educação Física e pós-graduada em Fisiologia do Exercício',
