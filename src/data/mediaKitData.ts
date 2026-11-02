@@ -314,7 +314,6 @@ export const mediaKitData: MediaKitData = {
           '1 post no feed + cobertura de Stories em tempo real durante a visita',
           'Link direto para reservas, cardápio ou contato nos stories por 48h',
           'Apresentação e recomendação do negócio para clientes e viajantes da agência',
-          'Relatório detalhado de alcance, engajamento e cliques gerados',
         ],
       },
       {
@@ -328,7 +327,6 @@ export const mediaKitData: MediaKitData = {
           'Sequência de Stories divulgando a experiência e direcionando para visitas/reservas diretas',
           'Recomendação ativa do estabelecimento nos roteiros montados pela agência',
           '1 post dedicado com chamada para ação direta para o seu negócio',
-          'Relatório de conversão, interesse e cliques monitorados',
         ],
       },
     ],
